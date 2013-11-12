@@ -1,0 +1,30 @@
+img {
+    display: inline-block; height: 50px;
+}
+.dropdown-toggle {
+    min-width: 200px; text-align: right;
+}
+.dropdown-change .dropdown-menu {
+    text-align: left;
+}
+.value {
+    display: inline-block; min-width: 153px; text-align: left;
+}
+.jumbotron {
+    background: #36424D; margin: 0;
+}
+.jumbotron-light {
+    background: #4C5F70;
+}
+.container {
+    text-align: center; color: #fff;
+}
+footer {
+    padding: 23px 0; background: #E6E6E6;
+}
+footer .container {
+    font-weight: bold; color: #333;
+}
+footer .container a {
+    color: #BE7234;
+}
