@@ -1,6 +1,12 @@
 (function() {
     $(function() {
         var TOKENS = {
+                'kindle-voyage-01': 'https://www.dropbox.com/s/hje9dwig5t4a5e9/cs-kindle-voyage-season-01.zip',
+                'kindle-voyage-02': 'https://www.dropbox.com/s/504hxtnqf3fbeg7/cs-kindle-voyage-season-02.zip',
+                'kindle-voyage-03': 'https://www.dropbox.com/s/o4r1a9z61a8xe9r/cs-kindle-voyage-season-03.zip',
+                'kindle-voyage-04': 'https://www.dropbox.com/s/ldx7yq76xvfkxrm/cs-kindle-voyage-season-04.zip',
+                'kindle-voyage-05': 'https://www.dropbox.com/s/dkrwh8hzjsfrqvt/cs-kindle-voyage-season-05.zip',
+                'kindle-voyage-all': 'https://www.dropbox.com/s/gnkqyly51rb93sr/cs-kindle-voyage-season-all.zip',
                 'kindle-fire-01': 'https://www.dropbox.com/s/ojffp1nc1m06q4g/cs-kindle-fire-season-01.zip',
                 'kindle-fire-02': 'https://www.dropbox.com/s/voi6m6a3t8g2zmb/cs-kindle-fire-season-02.zip',
                 'kindle-fire-03': 'https://www.dropbox.com/s/xn5xww28nmv2gd3/cs-kindle-fire-season-03.zip',
@@ -18,7 +24,7 @@
                 'kindle-03': 'https://www.dropbox.com/s/1275re8rl06iu0s/cs-kindle-season-03.zip',
                 'kindle-04': 'https://www.dropbox.com/s/xuqvpn98hpffczs/cs-kindle-season-04.zip',
                 'kindle-05': 'https://www.dropbox.com/s/v3np2s85aj8ubeo/cs-kindle-season-05.zip',
-                'kindle-all': 'https://www.dropbox.com/s/rk4lys6twvysxk6/cs-kindle-season-all.zip',
+                'kindle-all': 'https://www.dropbox.com/s/rk4lys6twvysxk6/cs-kindle-season-all.zip'
             },
             reader = false,
             season = false,
